@@ -105,6 +105,9 @@ div.container{
 
 }
 
+.newspaper{
+  column-count: 3;
+}
 #footer img:hover{
 opacity: 0.5;
 }
