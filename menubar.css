@@ -14,6 +14,7 @@ body {
   overflow: hidden;
   
 }
+
 #navbar a {
   float: left;
    display: block;
@@ -38,21 +39,23 @@ body {
 #navbar {
   width: 100%;
   overflow: auto;
-  background: #474747 url(bg.png);
+  background: #474747
 }
 
 #responsive{
   display: inline-block;
   position: relative;
   width: auto;
-  padding: 20px
+  padding: 10px
 }
 #content{
   width: auto;
-  padding: 40px;
+  padding: 100px;
+  padding-top: 40px;
 }
 div.galery{
   overflow: auto;
+
 }
 
 div.polaroid{
@@ -61,7 +64,7 @@ div.polaroid{
   width: 180px;
   text-align: center;
   float: left;
-   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   box-shadow:  0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #img{
@@ -81,7 +84,7 @@ div.container{
 }
 
 
-.footer{
+#footer{
    position: fixed;
    left: 0;
    bottom: 0;
@@ -89,11 +92,26 @@ div.container{
    background-color: #555;
    color: white;
    text-align: center;
-   font-size: 12px;
+   font-size: 18px;
+   border-radius: 20px 20px 0px 0px;
+}
+#footer img{
+  float: right;
+    padding: 20px;
+  padding-right: 50;
+
+  text-align: right;
+
+
 }
 
+#footer img:hover{
+opacity: 0.5;
+}
+
+
 #dummy{
-  
+  padding: 10px;
 }
 .sticky{
   position: fixed;
@@ -108,3 +126,35 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+#rcorners1 {
+  border-radius: 15px 50px 30px 5px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+}
+
+#rcorners2 {
+  border-radius: 15px 50px 30px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+}
+
+#rcorners3 {
+  border-radius: 15px 50px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+} 
+
+#rcorners4 {
+  border-radius: 15px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+} 
