@@ -85,15 +85,17 @@ div.container{
 
 
 #footer{
-   position: fixed;
+/*   position: fixed;*/
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #555;
+   height: 80px;
+      background-color: #555;
    color: white;
+   padding: 10px;
    text-align: center;
    font-size: 18px;
-   border-radius: 20px 20px 0px 0px;
+/*   border-radius: 20px 20px 0px 0px;*/
 }
 #footer img{
   float: right;
