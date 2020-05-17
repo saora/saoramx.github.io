@@ -1,67 +1,24 @@
-body {
-  margin:0px;
-  font-size: 18px;
-}
 
-
-.header {
-  background-color: #66ff33;
-  padding: 0px;
-  text-align: center;
-}
-
-#navbar {
-  overflow: hidden;
-  
-}
-#navbar a {
-  float: left;
-   display: block;
-    padding: 12px;
-    font: 22px Tahoma, Helvetica, Arial, Sans-Serif;
-
-   color: white;
-     text-decoration: none;
-   text-shadow: 0px 2px 2px #555;
-  border-bottom: 2px solid transparent;
-}
-
-#navbar a:hover {
-  background-color: #333333;
-  color: #cccccc;
-  text-shadow: 0px 2px 2px #555;
-  border-bottom: 2px solid #66ff33;
-}
-#navbar a.active {
-  background-color: #4CAF50;
-}
-#navbar {
-  width: 100%;
-  overflow: auto;
-  background: #474747 url(bg.png);
-}
-
-#responsive{
-  display: inline-block;
-  position: relative;
-  width: auto;
-  padding: 20px
-}
 #content{
   width: auto;
-  padding: 40px;
+  padding: 50px;
+  padding-top: 40px;
 }
 div.galery{
   overflow: auto;
+
+}
+
+.pad{
+  padding: 10px;
 }
 
 div.polaroid{
-  margin: 5px;
+
   border: 1px solid #ccc;
-  width: 180px;
   text-align: center;
   float: left;
-   box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   box-shadow:  0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #img{
@@ -81,19 +38,16 @@ div.container{
 }
 
 
-.footer{
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #555;
-   color: white;
-   text-align: center;
-   font-size: 12px;
+.newspaper{
+  column-count: 3;
+}
+#footer img:hover{
+opacity: 0.5;
 }
 
+
 #dummy{
-  
+  padding: 10px;
 }
 .sticky{
   position: fixed;
@@ -108,3 +62,35 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
+
+#rcorners1 {
+  border-radius: 15px 50px 30px 5px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+}
+
+#rcorners2 {
+  border-radius: 15px 50px 30px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+}
+
+#rcorners3 {
+  border-radius: 15px 50px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+} 
+
+#rcorners4 {
+  border-radius: 15px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+} 
